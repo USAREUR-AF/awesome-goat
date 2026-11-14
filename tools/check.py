@@ -48,7 +48,8 @@ def main() -> int:
                 problems.append(f"{name}: duplicate link: {m.group(2)}")
             links.append(m.group(2))
     if "--links" in sys.argv:
-        for url in sorted(set(re.findall(r"\((https://[^)\s]+)\)", text))):
+        prose = re.sub(r"```.*?```", "", text, flags=re.S)  # the entry template is an example, not a link
+        for url in sorted(set(re.findall(r"\((https://[^)\s]+)\)", prose))):
             try:
                 req = urllib.request.Request(url, headers={"User-Agent": "awesome-goat-link-check"})
                 with urllib.request.urlopen(req, timeout=20) as r:
