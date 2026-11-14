@@ -1,0 +1,8 @@
+# awesome-goat
+
+> A curated list of work that other people and organizations have built on goat, the open-source data fabric (WireGuard mesh, identity for people, machines and workloads, and publish/subscribe, run as one system). It includes open-source projects, commercial and proprietary products, feeds and integrations, deployments, and research. The list is README.md in https://github.com/USAREUR-AF/awesome-goat.
+
+- [The list](https://github.com/USAREUR-AF/awesome-goat/blob/main/README.md)
+- [How to add an entry](https://github.com/USAREUR-AF/awesome-goat/blob/main/CONTRIBUTING.md)
+- [goat, the system](https://github.com/USAREUR-AF/goatcore)
+- [goat documentation](https://usareur-af.github.io/goatdocs/)

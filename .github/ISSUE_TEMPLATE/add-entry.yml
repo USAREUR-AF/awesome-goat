@@ -1,0 +1,40 @@
+name: Add an entry
+description: Ask a maintainer to list work you built on goat, open source or proprietary.
+title: "Add: <name>"
+labels: ["entry"]
+body:
+  - type: input
+    id: name
+    attributes: { label: Name of the work }
+    validations: { required: true }
+  - type: input
+    id: link
+    attributes: { label: Public link, description: "A repository, documentation, a product page or a recorded demonstration. It must load without a sign-in." }
+    validations: { required: true }
+  - type: dropdown
+    id: section
+    attributes:
+      label: Section
+      options: [Open-source projects, Commercial and proprietary products, Feeds and integrations, Deployments and case studies, "Research, talks and writing"]
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes: { label: What it does, description: One or two plain sentences. }
+    validations: { required: true }
+  - type: input
+    id: uses
+    attributes: { label: Which parts of goat it uses, placeholder: "mesh, identity, fabric" }
+    validations: { required: true }
+  - type: input
+    id: by
+    attributes: { label: Organization or person responsible }
+    validations: { required: true }
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirm
+      options:
+        - label: I am the author of this work, or I have the author's agreement to list it.
+          required: true
+        - label: I understand that a listing is not an endorsement by the U.S. Army or the U.S. Government.
+          required: true
