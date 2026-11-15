@@ -18,7 +18,7 @@ This list is where the goat project highlights what others build on it. It is an
 
 An entry is work that uses goat as its substrate: it depends on goat's mesh, identity and data fabric together, and would not work on one of goat's components alone. Work that uses only one component belongs on that project's list, for example [awesome-zenoh](https://github.com/kydos/awesome-zenoh) or [awesome-wireguard](https://github.com/cedrickchee/awesome-wireguard).
 
-Entries come from the people who built the work. goat's own repositories are not listed here; they are indexed in the [goat documentation](https://usareur-af.github.io/goatdocs/).
+Entries come from the people who built the work. goat's own repositories are not listed here; they are indexed in the [goat documentation](https://usareur-af.github.io/goatdocs/reference/repositories/).
 
 A listing describes the work in its author's words. The maintainers check that the link works and that the entry says how the work uses goat. A listing is not an endorsement of any product, service or organization by the U.S. Army or the U.S. Government.
 
